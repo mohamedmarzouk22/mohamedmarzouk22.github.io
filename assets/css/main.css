@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1326,7 +1329,7 @@ input, select, textarea {
 				}
 
 			#header .content p {
-				text-transform: uppercase;
+				/* text-transform: uppercase; */
 				letter-spacing: 0.2rem;
 				font-size: 0.8rem;
 				line-height: 2;
@@ -1656,3 +1659,48 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* Add to make tabs 17-12-2022 */
+		/* Tabs */
+.tabs {
+	width: 100%; /*600px */
+	/* background-color: #09F; */
+	border-radius: 5px 5px 5px 5px;
+  }
+  ul#tabs-nav {
+	list-style: none;
+	margin: 0;
+	padding: 5px;
+	overflow: auto;
+  }
+  ul#tabs-nav li {
+	float: left;
+	font-weight: bold;
+	margin-right: 2px;
+	padding: 8px 10px;
+	border-radius: 5px 5px 5px 5px;
+	/*border: 1px solid #d5d5de;
+	border-bottom: none;*/
+	cursor: pointer;
+  }
+  ul#tabs-nav li:hover,
+  ul#tabs-nav li.active {
+	background-color:#FFF;
+	
+  }
+  #tabs-nav li a {
+	text-decoration: none;
+	color: #FFF;
+  }
+  #tabs-nav li:hover a, #tabs-nav li.active a {
+	text-decoration: none;
+	color: #000000;
+  }
+  
+  .tab-content {
+	padding: 10px;
+	/* border: 5px solid #09F; */
+	/* background-color: #FFF; */
+  }
+  
+  
