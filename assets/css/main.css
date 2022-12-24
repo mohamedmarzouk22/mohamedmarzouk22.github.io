@@ -179,8 +179,8 @@ input, select, textarea {
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
-		letter-spacing: 0.2rem;
+		/* text-transform: uppercase; */
+		letter-spacing: 0.1rem;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -205,13 +205,13 @@ input, select, textarea {
 	}
 
 	h2 {
-		font-size: 1.5rem;
+		font-size: 2.25rem;
 		line-height: 1.4;
 		letter-spacing: 0.5rem;
 	}
 
 	h3 {
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 
 	h4 {
@@ -382,7 +382,7 @@ input, select, textarea {
 		letter-spacing: 0.2rem;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
+		text-transform: uppercase;    /* This one to make the labels in content with uppercase letters */ 
 	}
 
 	input[type="text"],
@@ -1027,7 +1027,7 @@ input, select, textarea {
 		padding: 0 1.25rem 0 1.35rem;
 		text-align: center;
 		text-decoration: none;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 		white-space: nowrap;
 	}
 
@@ -1362,7 +1362,7 @@ input, select, textarea {
 					height: 2.75rem;
 					line-height: 2.75rem;
 					padding: 0 1.25rem 0 1.45rem;
-					text-transform: uppercase;
+					/* text-transform: uppercase; */
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
 					border-bottom: 0;
@@ -1641,7 +1641,7 @@ input, select, textarea {
 			font-size: 0.6rem;
 			opacity: 0.75;
 			margin-bottom: 0;
-			text-transform: uppercase;
+			/* text-transform: uppercase; */
 		}
 
 		body.is-article-visible #footer {
@@ -1702,5 +1702,13 @@ input, select, textarea {
 	/* border: 5px solid #09F; */
 	/* background-color: #FFF; */
   }
-  
-  
+
+
+
+  /* marzouk 24-12-2022 about bullet style */
+  /* ul {
+	list-style-type: square; /* change the bullet type to squares */
+	list-style-color: red;   /* change the bullet color to red */
+	list-style-size: 40px;   /* change the bullet size to 20 pixels */
+  }  
+   */
