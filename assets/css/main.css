@@ -1632,7 +1632,7 @@ input, select, textarea {
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		width: 100%;
 		max-width: 100%;
-		margin-top: 2rem;
+		/* margin-top: 2rem; */
 		text-align: center;
 	}
 
@@ -1672,12 +1672,13 @@ input, select, textarea {
 	margin: 0;
 	padding: 5px;
 	overflow: auto;
+	text-align: center;
   }
   ul#tabs-nav li {
-	float: left;
+    display: inline-block;
 	font-weight: bold;
-	margin-right: 2px;
-	padding: 8px 10px;
+	margin: auto 10px;
+	padding: 8px 20px;
 	border-radius: 5px 5px 5px 5px;
 	/*border: 1px solid #d5d5de;
 	border-bottom: none;*/
@@ -1703,6 +1704,11 @@ input, select, textarea {
 	/* background-color: #FFF; */
   }
 
+.image-style {
+	display: inline-block; 
+	width: calc(50% - 20px); 
+	padding: 10px;
+}
 
 
   /* marzouk 24-12-2022 about bullet style */
