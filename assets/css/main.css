@@ -1710,6 +1710,11 @@ input, select, textarea {
 	padding: 10px;
 }
 
+.image-style-full {
+	display: inline-block; 
+	width: calc(100% - 20px); 
+	padding: 10px;
+}
 
   /* marzouk 24-12-2022 about bullet style */
   /* ul {

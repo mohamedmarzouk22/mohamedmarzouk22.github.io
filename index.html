@@ -54,7 +54,7 @@
 			<!-- Intro -->
 			<article id="about">
 				<h2 class="major">About Me</h2>
-				<span class="image main"><img src="images/pic01.jpg" alt="" /></span>
+				<!-- <span class="image main"><img src="images/pic01.jpg" alt="" /></span> -->
 
 
 				<p>Welcome to Mohamed marzouk’s “ モハメド　マルゾーク”  website.</p>
@@ -63,7 +63,7 @@
 				<p> My story begins in 2005, when I enrolled in the Faculty of Science at Ain Shams University in Cairo, Egypt. 
 					In my first year as an undergraduate, I studied chemistry, physics, mathematics, and biology. 
 					Meanwhile, my grandfather died after a long battle with cancer, which was one of the primary 
-					reasons I chose biophysics as my B.Sc. major. Since then, I've known that I want to devote my life 
+					reasons I chose biophysics as my <b> <span style="color: rgb(0, 251, 255);">B.Sc.</span></b> major. Since then, I've known that I want to devote my life 
 					to cancer research in order to one day help others all over 
 					the world in their fight against this fatal disease. 
 					In 2009, I graduated as the top biophysics student and the top physics department student, 
@@ -84,9 +84,9 @@
 				
 				
 					<p>The Egypt-Japan Education Partnership (<b> <span style="color: rgb(0, 251, 255);">EJEP</span></b>) awarded me a scholarship in 2019 to begin 
-						my Ph.D. at <a href="https://educ.titech.ac.jp/bio/"> School of
+						my  <b> <span style="color: rgb(0, 251, 255);">Ph.D.</span></b> at <a href="https://educ.titech.ac.jp/bio/"> School of
 							Life Sciences and Technology </a>, <a href="https://www.titech.ac.jp"> Tokyo Institute of Technology </a>.
-				       In my Ph.D. research, I used parallel cascade selection molecular dynamics ( <b> <span style="color: rgb(0, 251, 255);">PaCS-MD</span></b>) 
+				       In my  <b> <span style="color: rgb(0, 251, 255);">Ph.D.</span></b> research, I used parallel cascade selection molecular dynamics ( <b> <span style="color: rgb(0, 251, 255);">PaCS-MD</span></b>) 
 				      in conjunction with the Markov state model (<b> <span style="color: rgb(0, 251, 255);">MSM</span></b>) to further investigate biological slow processes 
 					  such as binding/unbinding (for protein-DNA and protein-ligand) and open/close for protein binding pockets.</p>
 				
@@ -246,9 +246,9 @@
 								<h3>Alchemical transformation by REST/FEP combination</h3>
 								<li>
 									<h4>The idea of alchemical transformation is shown by the thermodynamic cycle.</h4>
-									<div class="image-style">
+									<div class="image-style-full">
 										<img src="gif/alchemical_freeenergycalculation.gif"
-											style="width: 100%; height: auto;">
+											style="width: 90%; height: auto;">
 									</div>
 								</li>
 
@@ -323,11 +323,11 @@
 											allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 											allowfullscreen></iframe> </div>
                                      <!-- TODO AAdel-->
-									<!-- image main
-									<div class="image-style">
-										<img src="images/2022/graduation/graduation6.jpg"
+									<!-- image main -->
+									<div class="image-style-full">
+										<img src="images/2022/graduation/graduation5.jpg"
 											style="width: 100%; height: auto;">
-									</div> -->
+									</div>
 								
 
 
@@ -356,20 +356,20 @@
 									<h4> PhD defense @ Tokyo Tech, Tokyo, Japan. </h4>
 
 									<!-- image 1&2  to control the hight height: 100px;-->
-									<div class="image-style">
-										<img src="images/2022/defense/defense1.jpg" style="width: 100%; height: 100px;">
+									<div class="image-style-full">
+										<img src="images/2022/defense/defense2.jpg" style="width: 100%; height: auto;">
 									</div>
-									<div class="image-style">
-										<img src="images/2022/defense/defense2.jpg" style="width: 100%; height: 100px;">
+									<div class="image-style-full">
+										<img src="images/2022/defense/defense1.jpg" style="width: 100%; height: auto;">
 									</div>
 
 									<!-- image 3&4 -->
-									<div class="image-style">
+									<div class="image-style-full">
 										<img src="images/2022/defense/defense3.jpg" style="width: 100%; height: auto;">
 									</div>
-									<div class="image-style">
+									<!-- <div class="image-style">
 										<img src="images/2022/defense/defense5.jpg" style="width: 100%; height: auto;">
-									</div>
+									</div> -->
 								</li>
 
 
@@ -425,7 +425,10 @@
 								<li>
 									<h4>  Life science & IR Spectroscopy School at SESAME in Allan, Jordan. </h4>
 
-									
+									 <!-- image 1 full -->
+									<div class="image-style-full">
+										<img src="images/2018/sesame/sesame7.jpg" style="width: 100%; height: auto;">
+									</div>
 
 									<!-- image 1&2 -->
 									<div class="image-style">
@@ -451,9 +454,7 @@
 										<img src="images/2018/sesame/sesame6.jpg" style="width: 100%; height: auto;">
 									</div>
 
-									<div class="image-style">
-										<img src="images/2018/sesame/sesame7.jpg" style="width: 100%; height: auto;">
-									</div>
+									
 
 									<!--TODO A.Adel  How to make one photo in int first with the whole width then the second line two photos as usual  -->
 									
@@ -639,15 +640,15 @@
 			<!-- Contact -->
 			<article id="contact">
 				<h2 class="major">Contact</h2>
-				<form id="contactform" method="post">
+				<form id="contactform" >
 					<div class="fields">
 						<div class="field half">
 							<label for="name">Name</label>
-							<input type="text" name="form_name" id="name" />
+							<input type="text" name="from_name" id="name" />
 						</div>
 						<div class="field half">
 							<label for="email">Email</label>
-							<input type="text" name="form_email" id="email" />
+							<input type="text" name="from_email" id="email" />
 						</div>
 						<div class="field">
 							<label for="message">Message</label>
@@ -705,33 +706,22 @@
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
 
-	<!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 	</script>
-	<script type="text/javascript">
-		(function () {
-			emailjs.init("INraFbDfICYQJH2xk");
-		})();                       
-		emailjs.sendForm('service_0tkpfiy', 'template_xbcox48', '#contactform')
-			.then(function (response) {
-				console.log('SUCCESS!', response.status, response.text);
-			}, function (error) {
-				console.log('FAILED...', error);
-			});
-	</script> -->
-
-
-
-
-
-<!-- <script>
+	
+<script>
 	// listen to the form submission
+	(function () {
+			emailjs.init("oivXfPtzcLrIg56Q1");
+		})();   
+
 	document
-	  .getElementById("#contactform")
+	  .getElementById("contactform")
 	  .addEventListener("submit", function (event) {
 		event.preventDefault();
 
-		const serviceID = "service_0tkpfiy";
-		const templateID = "template_xbcox48";
+		const serviceID = "service_dxj4qjo";
+		const templateID = "template_h7yfmxr";
 
 		// send the email here
 		emailjs.sendForm(serviceID, templateID, this).then(
@@ -745,7 +735,7 @@
 		  }
 		);
 	  });
-  </script> -->
+  </script>
 
 
 </body>
