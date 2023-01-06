@@ -641,6 +641,7 @@
 			<article id="contact">
 				<h2 class="major">Contact</h2>
 				<form id="contactform" >
+					<p>If you wish to contact me or have scientific ideas to discuss, please send a brief synopsis.</p>
 					<div class="fields">
 						<div class="field half">
 							<label for="name">Name</label>
@@ -712,7 +713,7 @@
 <script>
 	// listen to the form submission
 	(function () {
-			emailjs.init("oivXfPtzcLrIg56Q1");
+			emailjs.init("Dof8wILtXVjccUGkX");
 		})();   
 
 	document
@@ -720,14 +721,15 @@
 	  .addEventListener("submit", function (event) {
 		event.preventDefault();
 
-		const serviceID = "service_dxj4qjo";
-		const templateID = "template_h7yfmxr";
+		const serviceID = "service_o5rnmbj";
+		const templateID = "template_q53h51x";
 
 		// send the email here
 		emailjs.sendForm(serviceID, templateID, this).then(
 		  (response) => {
-			console.log("SUCCESS!", response.status, response.text);
-			alert("SUCCESS!");
+			console.log("The message successfully sent to Dr. M Marzouk!", response.status, response.text); 
+			// SUCCESS
+			alert("The message successfully sent to Dr. M Marzouk!");
 		  },
 		  (error) => {
 			console.log("FAILED...", error);
