@@ -727,7 +727,7 @@
 		// send the email here
 		emailjs.sendForm(serviceID, templateID, this).then(
 		  (response) => {
-			console.log("The message successfully sent to Dr. M Marzouk!", response.status, response.text); 
+			console.log("The success message!", response.status, response.text); 
 			// SUCCESS
 			alert("The message successfully sent to Dr. M Marzouk!");
 		  },
